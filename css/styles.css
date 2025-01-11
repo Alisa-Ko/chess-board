@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    border: 2px solid grey;
+}
+
+.c1 {
+ background-color: black;
+}
+
+.c2 {
+    background-color: beige;
+   }
