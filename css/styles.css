@@ -1,6 +1,5 @@
 .container {
     display: flex;
-    flex-wrap: wrap;
     width: 320px;
     height: 320px;
     
@@ -8,7 +7,6 @@
 
 .row {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
 }
 
@@ -18,10 +16,12 @@
     border: 2px solid grey;
 }
 
-.c1 {
+.row:nth-child(odd) .item:nth-child(odd), 
+.row:nth-child(even) .item:nth-child(even){
  background-color: black;
 }
 
-.c2 {
+.row:nth-child(odd) .item:nth-child(even), 
+.row:nth-child(even) .item:nth-child(odd){
     background-color: beige;
    }
